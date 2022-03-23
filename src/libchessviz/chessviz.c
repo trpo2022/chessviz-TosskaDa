@@ -1,7 +1,5 @@
-#include <libchessviz/chessviz.h>
 #include <stdio.h>
 #include <stdlib.h>
-
 void create(char mas[9][9])
 {
     for (int i = 0; i < 8; i++)
@@ -16,7 +14,7 @@ void create(char mas[9][9])
     for (int i = 2; i < 6; i++)
         for (int j = 1; j < 9; j++) {
             mas[i][j] = 32;
-        }
+    }
     for (int i = 1; i < 2; i++)
         for (int j = 1; j < 9; j++) {
             mas[i][j] = 112;
